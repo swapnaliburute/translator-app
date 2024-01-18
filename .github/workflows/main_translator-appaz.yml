@@ -61,7 +61,7 @@ jobs:
       - name: Unzip artifact for deployment
         run: unzip release.zip
       - name: Jaam
-        run: echo ${{ secrets.AZUREAPPSERVICE_CLIENTID_0E5D279C82824B87A6A4F9C1CC1EE9CE }}
+        run: echo ${{ secrets }}
 
       
       - name: Login to Azure
